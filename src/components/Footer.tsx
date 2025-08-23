@@ -1,14 +1,19 @@
-import { Instagram, Twitter, Youtube, Facebook, Music } from "lucide-react";
+import { Instagram, Twitter, Youtube, Facebook, Music, Square } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Youtube, href: "#", label: "YouTube" },
-    { icon: Music, href: "#", label: "Spotify" },
-    { icon: Facebook, href: "#", label: "Facebook" }
+    { icon: Instagram, href: "https://www.instagram.com/genercrew?igsh=MWtpNHRpdjIzM2s4Yw==", label: "Instagram" },
+
+    { icon: Youtube, href: "https://www.youtube.com/@genercrew", label: "YouTube" },
+    { icon: Music, href: "https://open.spotify.com/intl-es/artist/6oYweNH49SNb7lrFDoFIYE", label: "Spotify" },
+    { icon: Facebook, href: "https://www.facebook.com/share/19tbpKwHcX/", label: "Facebook" },
+            { 
+      icon: () => <span className="font-bold text-lg">X</span>, 
+      href: "https://x.com/CrewGener", 
+      label: "X" 
+    }
   ];
 
   const quickLinks = [
@@ -71,8 +76,8 @@ const Footer = () => {
               ))}
             </div>
             <div className="text-sm text-muted-foreground space-y-1">
-              <p>booking@genercrew.com</p>
-              <p>+57 310 123 4567</p>
+              <p>generjouseth@gmail.com</p>
+              <p>+34 603 35 10 65</p>
             </div>
           </div>
         </div>

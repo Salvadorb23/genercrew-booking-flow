@@ -16,7 +16,7 @@ const Press = () => {
       publication: "Shock"
     },
     {
-      quote: "Con 'Esencias', Gener Crew demuestra su capacidad para conectar con audiencias locales e internacionales.",
+      quote: "Con 'Pa que lo bailen', Gener Crew demuestra su capacidad para conectar con audiencias locales e internacionales.",
       author: "Pulzo Music",
       logo: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=120&h=60&fit=crop",
       publication: "Pulzo"
@@ -24,7 +24,7 @@ const Press = () => {
   ];
 
   const mediaLogos = [
-    { name: "Radio Uno", logo: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=150&h=80&fit=crop" },
+    { name: "Ac Radio Show", logo: "/logos/ac.png"},
     { name: "Caracol Radio", logo: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=150&h=80&fit=crop" },
     { name: "RCN Radio", logo: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=150&h=80&fit=crop" },
     { name: "La Mega", logo: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=150&h=80&fit=crop" },

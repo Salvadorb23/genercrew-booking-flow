@@ -45,7 +45,7 @@ const Navbar = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="default" className="bg-gradient-gold text-black font-semibold hover:shadow-glow transition-all duration-300">
-              Reservar Ahora
+              Próximamente Reservar
             </Button>
           </div>
 

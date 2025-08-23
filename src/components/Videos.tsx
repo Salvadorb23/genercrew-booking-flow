@@ -5,24 +5,27 @@ import { Play } from "lucide-react";
 const Videos = () => {
   const videos = [
     {
-      id: "dQw4w9WgXcQ",
-      title: "Gener Crew - Latest Hit",
-      thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+      id: "fn1Dz2zOxW4",
+      title: "PA QUE LO BAILEN ft Gener Crew Fumaratto Oficial",
+      thumbnail: "https://img.youtube.com/vi/fn1Dz2zOxW4/maxresdefault.jpg"
     },
     {
-      id: "M7lc1UVf-VE",
-      title: "Gener Crew - Live Performance",
-      thumbnail: "https://img.youtube.com/vi/M7lc1UVf-VE/maxresdefault.jpg"
+      //https://youtu.be/a92F6kmxXn8?si=YugCjKBEzS42WPjJ
+      id: "a92F6kmxXn8",
+      title: "BRILLO Y CASH 💸👹🦍 | Gener Crew X La R . PROD.Andres Yuma. LA CREW FAMILY",
+      thumbnail: "https://img.youtube.com/vi/a92F6kmxXn8/maxresdefault.jpg"
     },
     {
-      id: "2Vv-BfVoq4g",
-      title: "Gener Crew - Studio Session",
-      thumbnail: "https://img.youtube.com/vi/2Vv-BfVoq4g/maxresdefault.jpg"
+      //https://youtu.be/PjVJndAXHBA?si=C9lEniD5VjWDKK4S
+      id: "PjVJndAXHBA",
+      title: "En El Ruedo X Gener Crew 🏍️💸🦍",
+      thumbnail: "https://img.youtube.com/vi/PjVJndAXHBA/maxresdefault.jpg"
     },
     {
-      id: "kJQP7kiw5Fk",
-      title: "Gener Crew - Behind the Scenes",
-      thumbnail: "https://img.youtube.com/vi/kJQP7kiw5Fk/maxresdefault.jpg"
+      //https://youtu.be/P12vp_U29vs?si=oHWkvox7PgsiSsjZ
+      id: "P12vp_U29vs",
+      title: "Gener Crew X FerraGramo 💸🦍 | Prod. Yanpolo 🎧👨🏻‍💻 Rfilms 🎥🎬",
+      thumbnail: "https://img.youtube.com/vi/P12vp_U29vs/maxresdefault.jpg"
     }
   ];
 
@@ -34,7 +37,7 @@ const Videos = () => {
             Videos
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Descubre los últimos videoclips y performances en vivo de Gener Crew
+            Descubre los últimos videoclips de Gener Crew
           </p>
         </div>
 

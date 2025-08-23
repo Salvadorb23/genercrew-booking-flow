@@ -4,28 +4,32 @@ import { Button } from "@/components/ui/button";
 const Music = () => {
   const releases = [
     {
-      title: "Esencias EP",
+      //https://open.spotify.com/intl-es/track/2Ng7D9WhSVft2NelikjDji?si=1214ed8d94a14057
+      title: "Pa que lo bailen",
       year: "2022",
-      description: "EP debut con colaboraciones de artistas locales e internacionales",
-      spotifyId: "4uLU6hMCjMI75M1A2tKUQC",
-      appleMusicUrl: "#",
-      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
+      description: "Colaboraciones de artistas locales e internacionales",
+      spotifyId: "2Ng7D9WhSVft2NelikjDji",
+      appleMusicUrl: "https://music.apple.com/co/song/pa-que-lo-bailen/1790951994",
+      image: "/images/pa-que-lo-bailen-gener-crew.jpg"
     },
     {
-      title: "Underground Flow",
-      year: "2023",
+
+    //https://open.spotify.com/intl-es/track/0hIt0EaatULlBQXTkckCpr?si=1c5ed5829bc34075
+      title: "Brillo y Cash Gener Crew ft La R",
+      year: "2025",
       description: "Single que marca la esencia underground de Gener Crew",
-      spotifyId: "1DFixLWuPkv3KT3TnV35Am",
+      spotifyId: "0hIt0EaatULlBQXTkckCpr",
       appleMusicUrl: "#",
-      image: "https://images.unsplash.com/photo-1571974599782-87624638275d?w=400&h=400&fit=crop"
+      image: "/images/brillo-y-cash-gener-crew.jpg"
     },
     {
-      title: "La Crew Family",
-      year: "2023",
+      //https://open.spotify.com/intl-es/track/5cC9YzzisHplgwzFZlCqkA?si=d3523ea95e8b4915
+      title: "Location",
+      year: "2024",
       description: "Himno oficial que representa el concepto musical del artista",
-      spotifyId: "6rqhFgbbKwnb9MLmUQDhG6",
+      spotifyId: "5cC9YzzisHplgwzFZlCqkA",
       appleMusicUrl: "#",
-      image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop"
+      image: "/images/location-gener-crew.jpg"
     }
   ];
 
@@ -91,14 +95,22 @@ const Music = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-12">
-          <Button 
-            size="lg" 
-            className="bg-gradient-gold text-black font-bold hover:shadow-glow transition-all duration-300"
-          >
-            Escuchar en Spotify
-          </Button>
-        </div>
+<div className="text-center mt-12">
+  <Button 
+    size="lg" 
+    className="bg-gradient-gold text-black font-bold hover:shadow-glow transition-all duration-300"
+    asChild
+  >
+    <a 
+      href="https://open.spotify.com/intl-es/artist/6oYweNH49SNb7lrFDoFIYE" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Escuchar en Spotify
+    </a>
+  </Button>
+</div>
+
       </div>
     </section>
   );

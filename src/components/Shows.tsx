@@ -5,7 +5,7 @@ import { Calendar, MapPin, Clock, Ticket } from "lucide-react";
 const Shows = () => {
   const upcomingShows = [
     {
-      date: "2024-03-15",
+      date: "2025-09-25",
       title: "Festival Urban Beats",
       venue: "Teatro Mayor",
       city: "Bogotá, Colombia",
@@ -13,33 +13,7 @@ const Shows = () => {
       ticketUrl: "#",
       status: "available"
     },
-    {
-      date: "2024-03-22",
-      title: "Noche Underground",
-      venue: "Club Vibra",
-      city: "Medellín, Colombia", 
-      time: "22:30",
-      ticketUrl: "#",
-      status: "available"
-    },
-    {
-      date: "2024-04-05",
-      title: "La Crew Family Tour",
-      venue: "Coliseo Santander",
-      city: "Bucaramanga, Colombia",
-      time: "20:00",
-      ticketUrl: "#",
-      status: "soldout"
-    },
-    {
-      date: "2024-04-12",
-      title: "Reggaeton & Trap Night",
-      venue: "Centro de Convenciones",
-      city: "Cali, Colombia",
-      time: "21:30",
-      ticketUrl: "#",
-      status: "available"
-    }
+
   ];
 
   const formatDate = (dateString: string) => {
@@ -127,10 +101,11 @@ const Shows = () => {
           <div className="bg-card rounded-lg p-8 border border-border max-w-2xl mx-auto">
             <h3 className="text-xl font-semibold mb-4">Mantente Actualizado</h3>
             <p className="text-muted-foreground mb-6">
-              Sigue a Gener Crew para recibir notificaciones sobre nuevos shows y eventos
+              Sigue a Gener Crew y no te pierdas todo sobre nuevos shows y eventos
             </p>
             <Button variant="outline" size="lg">
-              Seguir en Bandsintown
+              Seguir en Instagram
+              
             </Button>
           </div>
         </div>

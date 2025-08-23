@@ -70,8 +70,8 @@ const Contact = () => {
                       <Mail className="w-6 h-6 text-primary mr-4 mt-1" />
                       <div>
                         <h4 className="font-semibold text-foreground mb-1">Booking</h4>
-                        <p className="text-muted-foreground">booking@genercrew.com</p>
-                        <p className="text-muted-foreground">management@genercrew.com</p>
+                        <p className="text-muted-foreground">generjouseth@gmail.com</p>
+                        <p className="text-muted-foreground text-sm">Respuesta en 24-48 horas</p>
                       </div>
                     </div>
                   </Card>
@@ -81,7 +81,7 @@ const Contact = () => {
                       <Phone className="w-6 h-6 text-primary mr-4 mt-1" />
                       <div>
                         <h4 className="font-semibold text-foreground mb-1">WhatsApp</h4>
-                        <p className="text-muted-foreground">+57 310 123 4567</p>
+                        <p className="text-muted-foreground">+34 603 35 10 65</p>
                         <p className="text-muted-foreground text-sm">Disponible 24/7</p>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                       <MapPin className="w-6 h-6 text-primary mr-4 mt-1" />
                       <div>
                         <h4 className="font-semibold text-foreground mb-1">Ubicación</h4>
-                        <p className="text-muted-foreground">Bucaramanga, Colombia</p>
+                        <p className="text-muted-foreground">Mallorca, España</p>
                         <p className="text-muted-foreground text-sm">Disponible para eventos nacionales e internacionales</p>
                       </div>
                     </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                   Únete a La Crew Family
                 </h4>
                 <p className="text-muted-foreground mb-4 text-sm">
-                  Sé el primero en recibir noticias, lanzamientos exclusivos y acceso anticipado a boletos
+                  Sé el primero en recibir noticias, lanzamientos exclusivos y acceso anticipado a boletos, <span>Muy pronto</span>
                 </p>
                 <div className="flex gap-2">
                   <Input 

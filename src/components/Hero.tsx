@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
-import heroImage from "@/assets/hero-bg.jpg";
+import heroImage from "@/assets/gener-hero.jpg";
 
 const Hero = () => {
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
             size="lg" 
             className="bg-gradient-gold text-black font-bold text-lg px-8 py-4 hover:shadow-glow transition-all duration-300 transform hover:scale-105"
           >
-            Reservar Ahora
+            Próximamente Reservar
           </Button>
           <Button 
             variant="outline" 

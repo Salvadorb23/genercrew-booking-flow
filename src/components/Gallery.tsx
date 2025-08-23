@@ -7,45 +7,26 @@ const Gallery = () => {
 
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=800&fit=crop",
+      src: "/images/gener-crew-caminando.jpg",
       alt: "Gener Crew - Studio Session",
       category: "studio"
     },
     {
-      src: "https://images.unsplash.com/photo-1571974599782-87624638275d?w=600&h=800&fit=crop",
+      src: "public/images/gener-ac-radio-show.png",
       alt: "Gener Crew - Live Performance",
       category: "live"
     },
     {
-      src: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=600&h=800&fit=crop",
+      src: "public/images/detras-de-escenas-gener.png",
       alt: "Gener Crew - Behind the Scenes",
       category: "behind"
     },
     {
-      src: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&h=800&fit=crop",
+      src: "public/images/concierto-gener.png",
       alt: "Gener Crew - Concert",
       category: "live"
     },
-    {
-      src: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=800&fit=crop",
-      alt: "Gener Crew - Studio Portrait",
-      category: "studio"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=800&fit=crop",
-      alt: "Gener Crew - Live Show",
-      category: "live"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=600&h=800&fit=crop",
-      alt: "Gener Crew - Backstage",
-      category: "behind"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=800&fit=crop",
-      alt: "Gener Crew - Performance",
-      category: "live"
-    }
+   
   ];
 
   return (

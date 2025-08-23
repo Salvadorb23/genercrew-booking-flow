@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { MapPin, Calendar, Music, Award } from "lucide-react";
+import { MapPin, Calendar, Music, Award, Mic } from "lucide-react";
 
 const Bio = () => {
   return (
@@ -21,7 +21,7 @@ const Bio = () => {
             <div className="relative">
               <div className="aspect-square rounded-lg overflow-hidden shadow-dark">
                 <img
-                  src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=600&fit=crop"
+                  src="/images/flow-gener-crew.jpg"
                   alt="Gener Crew"
                   className="w-full h-full object-cover"
                 />
@@ -46,7 +46,7 @@ const Bio = () => {
               </div>
 
               <div className="space-y-4">
-                <h3 className="text-2xl font-bold text-foreground">Biografía Corta</h3>
+                <h3 className="text-2xl font-bold text-foreground">Biografía</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Gener Crew es un intérprete de música urbana nacido en Bucaramanga, Colombia. 
                   Desde temprana edad desarrolló su pasión por la música, aprendiendo guitarra y 
@@ -60,12 +60,7 @@ const Bio = () => {
                 </p>
               </div>
 
-              <Button 
-                size="lg" 
-                className="bg-gradient-gold text-black font-bold hover:shadow-glow transition-all duration-300"
-              >
-                Descargar EPK Completo
-              </Button>
+              
             </div>
           </div>
 
@@ -81,14 +76,14 @@ const Bio = () => {
 
             <Card className="p-6 text-center bg-card border-border hover:shadow-glow transition-all duration-300">
               <Music className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h4 className="text-lg font-semibold mb-2">EP Debut</h4>
+              <h4 className="text-lg font-semibold mb-2">Colaboración con B.I.R.A</h4>
               <p className="text-muted-foreground text-sm">
-                "Esencias" con colaboraciones internacionales
+                "Flow con Flow" colaboración internacionales
               </p>
             </Card>
-
+      
             <Card className="p-6 text-center bg-card border-border hover:shadow-glow transition-all duration-300">
-              <Calendar className="w-12 h-12 text-primary mx-auto mb-4" />
+              <Mic className="w-12 h-12 text-primary mx-auto mb-4" />
               <h4 className="text-lg font-semibold mb-2">Radio Nacional</h4>
               <p className="text-muted-foreground text-sm">
                 Reproducido en radios locales y nacionales
