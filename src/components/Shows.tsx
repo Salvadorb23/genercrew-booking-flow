@@ -5,11 +5,11 @@ import { Calendar, MapPin, Clock, Ticket } from "lucide-react";
 const Shows = () => {
   const upcomingShows = [
     {
-      date: "2025-09-25",
-      title: "Festival Urban Beats",
-      venue: "Teatro Mayor",
-      city: "Bogotá, Colombia",
-      time: "21:00",
+      date: "12-01-2025",
+      title: "Próximas fechas",
+      venue: "Dentro de poco",
+      city: "",
+      time: "24:7",
       ticketUrl: "#",
       status: "available"
     },
@@ -78,7 +78,7 @@ const Shows = () => {
                       size="lg"
                     >
                       <Ticket className="w-4 h-4 mr-2" />
-                      Comprar Boletos
+                      No te los pierdas
                     </Button>
                   ) : (
                     <Button 
@@ -98,16 +98,7 @@ const Shows = () => {
 
         {/* Bandsintown Widget Placeholder */}
         <div className="mt-16 text-center">
-          <div className="bg-card rounded-lg p-8 border border-border max-w-2xl mx-auto">
-            <h3 className="text-xl font-semibold mb-4">Mantente Actualizado</h3>
-            <p className="text-muted-foreground mb-6">
-              Sigue a Gener Crew y no te pierdas todo sobre nuevos shows y eventos
-            </p>
-            <Button variant="outline" size="lg">
-              Seguir en Instagram
-              
-            </Button>
-          </div>
+          
         </div>
       </div>
     </section>

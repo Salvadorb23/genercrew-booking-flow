@@ -6,39 +6,15 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    {
-      src: "/images/gener-crew-caminando.jpg",
-      alt: "Gener Crew - Studio Session",
-      category: "studio"
-    },
-    {
-      src: "public/images/gener-ac-radio-show.png",
-      alt: "Gener Crew - Live Performance",
-      category: "live"
-    },
-    {
-      src: "public/images/detras-de-escenas-gener.png",
-      alt: "Gener Crew - Behind the Scenes",
-      category: "behind"
-    },
-    {
-      src: "public/images/concierto-gener.png",
-      alt: "Gener Crew - Concert",
-      category: "live"
-    },
+
    
   ];
 
   return (
-    <section id="galeria" className="py-20 bg-secondary">
+    <section id="galeria" className="py-1 bg-secondary">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-gold bg-clip-text text-transparent">
-            Galería
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Fotos profesionales de estudio, conciertos en vivo y momentos detrás de cámaras
-          </p>
+        <div className="text-center mb-6">
+         
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">

@@ -41,22 +41,17 @@ const Bio = () => {
                 </div>
                 <div className="flex items-center text-muted-foreground">
                   <Music className="w-5 h-5 mr-2 text-primary" />
-                  <span>Trap · Drill · Dancehall · Reggaeton</span>
+                  <span>Trap · Drill · Reggaeton</span>
                 </div>
               </div>
 
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-foreground">Biografía</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Gener Crew es un intérprete de música urbana nacido en Bucaramanga, Colombia. 
-                  Desde temprana edad desarrolló su pasión por la música, aprendiendo guitarra y 
-                  componiendo canciones. Ha participado en programas de televisión como "Los Angelitos" 
-                  y "Factor XS", además de múltiples shows y torneos nacionales.
+                  Gener Crew es un artista de música urbana originario de Bucaramanga, Colombia. Desde muy joven, cultivó su pasión por la música, dominando la guitarra y la composición. Su talento lo ha llevado a presentarse en numerosos eventos y competencias nacionales.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  En 2022, Gener Crew lanzó su concepto musical bajo el lema "La Crew Family", 
-                  destacándose por su versatilidad en géneros como Trap, Drill, Dancehall y Reggaeton, 
-                  manteniendo su esencia underground.
+                  En 2022, fundó su proyecto musical "La Crew Family". Su sonido se distingue por una notable versatilidad, explorando géneros como el Trap, Drill y Reggaeton, sin perder su autenticidad underground.
                 </p>
               </div>
 

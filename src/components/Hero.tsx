@@ -24,25 +24,10 @@ const Hero = () => {
           La Crew Family
         </p>
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Trap · Drill · Dancehall · Reggaeton · Underground
+          Trap · Drill · Reggaeton · Underground
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button 
-            size="lg" 
-            className="bg-gradient-gold text-black font-bold text-lg px-8 py-4 hover:shadow-glow transition-all duration-300 transform hover:scale-105"
-          >
-            Próximamente Reservar
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold text-lg px-8 py-4 transition-all duration-300"
-          >
-            <Play className="mr-2 h-5 w-5" />
-            Ver Videos
-          </Button>
-        </div>
+       
       </div>
 
       {/* Scroll Indicator */}

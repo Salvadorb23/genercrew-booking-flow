@@ -82,12 +82,7 @@ const Music = () => {
                   </div>
                   
                   {/* Streaming Links */}
-                  <div className="flex gap-2">
-                    <Button variant="outline" size="sm" className="flex-1">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Apple Music
-                    </Button>
-                  </div>
+
                 </div>
               </div>
             </div>

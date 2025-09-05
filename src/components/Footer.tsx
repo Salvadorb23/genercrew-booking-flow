@@ -8,7 +8,7 @@ const Footer = () => {
 
     { icon: Youtube, href: "https://www.youtube.com/@genercrew", label: "YouTube" },
     { icon: Music, href: "https://open.spotify.com/intl-es/artist/6oYweNH49SNb7lrFDoFIYE", label: "Spotify" },
-    { icon: Facebook, href: "https://www.facebook.com/share/19tbpKwHcX/", label: "Facebook" },
+    { icon: Facebook, href: "https://www.facebook.com/genercrewoffical", label: "Facebook" },
             { 
       icon: () => <span className="font-bold text-lg">X</span>, 
       href: "https://x.com/CrewGener", 
@@ -36,7 +36,7 @@ const Footer = () => {
             </h3>
             <p className="text-muted-foreground mb-4 max-w-md">
               Intérprete de música urbana desde Bucaramanga, Colombia. 
-              Trap · Drill · Dancehall · Reggaeton con esencia underground.
+              Trap · Drill · Reggaeton con esencia underground.
             </p>
             <p className="text-sm text-muted-foreground">
               La Crew Family - Desde 2022
@@ -76,7 +76,7 @@ const Footer = () => {
               ))}
             </div>
             <div className="text-sm text-muted-foreground space-y-1">
-              <p>generjouseth@gmail.com</p>
+              <p>info@genercrew.com</p>
               <p>+34 603 35 10 65</p>
             </div>
           </div>

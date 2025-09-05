@@ -13,7 +13,7 @@ const Navbar = () => {
     { href: "#bio", label: "Bio / EPK" },
     { href: "#shows", label: "Shows" },
     { href: "#prensa", label: "Prensa" },
-    { href: "#contacto", label: "Contacto / Booking" },
+    { href: "#contacto", label: "Contacto" },
   ];
 
   return (
@@ -43,11 +43,7 @@ const Navbar = () => {
           </div>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button variant="default" className="bg-gradient-gold text-black font-semibold hover:shadow-glow transition-all duration-300">
-              Próximamente Reservar
-            </Button>
-          </div>
+
 
           {/* Mobile menu button */}
           <div className="md:hidden">
